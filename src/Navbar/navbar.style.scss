@@ -1,0 +1,47 @@
+.navbar {
+  //   height: 20vh;
+  &-toggler {
+    border: 1px solid rgba(255, 255, 255, 0.212) !important;
+  }
+  &-toggler:focus {
+    box-shadow: 0 0 3px 2px #ffffff47 !important;
+  }
+  .dropdown-sm .dropdown-menu[data-bs-popper] {
+    right: -130px !important;
+  }
+  .button {
+    transition: var(--trans-sm);
+    color: white;
+    &.btn-lg {
+      padding: 0.5rem 1rem;
+    }
+    &:hover,
+    &:focus {
+      background-color: var(--color-primary-light);
+    }
+  }
+  .button-primary {
+    background-color: var(--color-primary-dark);
+    cursor: pointer;
+  }
+  .button-secondary {
+    outline: 1px solid #999;
+    background-color: transparent;
+  }
+  .nav-item .nav-link {
+    transition: var(--trans-sm);
+    &:hover,
+    &:focus {
+      color: var(--color-primary-light) !important;
+    }
+  }
+}
+
+.locations {
+  a {
+    transition: var(--trans-sm);
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+}

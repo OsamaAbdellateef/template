@@ -1,0 +1,25 @@
+.content-section {
+  height: 90vh;
+  min-height: 500px;
+  // background-color: greenyellow;
+}
+
+.content-form {
+  input {
+    padding: 0.8rem 2rem;
+  }
+  input[type="text"] {
+    max-width: 310px;
+  }
+
+  input[type="text"]:focus {
+    outline: none !important;
+  }
+  input[type="submit"] {
+    transition: var(--trans-sm);
+    background-color: #da3743;
+    &:hover {
+      background-color: #f13c48;
+    }
+  }
+}

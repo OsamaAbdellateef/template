@@ -1,0 +1,27 @@
+* {
+  font-family: "cairo";
+  color: white;
+}
+
+/* utilities */
+
+:root {
+  /* colors */
+  --color-primary-light: #436fe0;
+  --color-primary-dark: #375bb3;
+
+  /* transitions */
+  --trans-sm: all ease-in-out 0.3s;
+  --trans-md: all ease-in-out 0.5s;
+  --trans-lg: all ease-in-out 0.8s;
+}
+
+.App {
+  min-height: 600px;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.865),
+      rgba(0, 0, 0, 0.865)
+    ),
+    url(../assets/map.jpg);
+}
