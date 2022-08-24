@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./App.css";
+import "./App.scss";
 import Content from "./Content/Content";
 import Loader from "./Loader/Loader";
 import Navbar from "./Navbar/Navbar";
